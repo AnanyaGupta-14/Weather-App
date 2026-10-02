@@ -1,4 +1,4 @@
-# ☀️ Sunny Weather
+# ☀️ Weather App
 
 A simple and responsive weather application built using HTML, CSS, and JavaScript. It uses the OpenWeather API to fetch real-time weather information for any city.
 
