@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sunny Weather</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-app">
+
+        <h1>☀️ Sunny Weather</h1>
+
+        <p class="subtitle">
+            Check the weather anywhere 🌍
+        </p>
+
+
+        <!-- Search Section -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter city name"
+            >
+
+            <button onclick="getWeather()">
+                Search
+            </button>
+
+        </div>
+
+
+        <!-- Error Message -->
+
+        <p id="error"></p>
+
+
+        <!-- Weather Card -->
+
+        <div class="weather-card" id="weatherCard">
+
+            <h2 id="city"></h2>
+
+            <div class="weather-icon" id="weatherIcon"></div>
+
+            <h3 id="temperature"></h3>
+
+            <p id="description"></p>
+
+
+            <!-- Weather Details -->
+
+            <div class="weather-details">
+
+                <div class="detail">
+
+                    <span>💧</span>
+
+                    <p>Humidity</p>
+
+                    <strong id="humidity"></strong>
+
+                </div>
+
+
+                <div class="detail">
+
+                    <span>💨</span>
+
+                    <p>Wind</p>
+
+                    <strong id="wind"></strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
